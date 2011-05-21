@@ -24,20 +24,20 @@ body {
     text-align: center;
 }
 
-header {
+.header {
     padding-top: 20px;
 }
 
-header h1 {
+.header h1 {
     font-size: 20px;
     float: left;
 }
 
-header nav {
+.header nav {
     font-size: 14px;
 }
 
-section {
+.section {
     clear: both;
     margin-top: 1em;
     font-size: 12px;
@@ -46,7 +46,7 @@ section {
     background: #fff;
 }
 
-section h1 {
+.section h1 {
     font-size: 14px;
     font-family: Georgia, Times, "Times New Roman", serif;
 }
