@@ -5,12 +5,16 @@ TaskForce::Application.routes.draw do
 
   get "task_force/membership"
 
+  get "task_force/links"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
   # Sample of regular route:
   match '/activities',   :to => 'task_force#activities'
   match '/membership', :to => 'task_force#membership'
+  match '/links', :to => 'task_force#links'
+  
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:

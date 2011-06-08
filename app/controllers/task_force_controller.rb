@@ -11,4 +11,8 @@ class TaskForceController < ApplicationController
     @title = "Membership"
   end
 
+  def links
+    @title = "External Links"
+  end
+
 end
