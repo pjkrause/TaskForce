@@ -1,4 +1,6 @@
 TaskForce::Application.routes.draw do
+  get "acecube/call"
+
   get "task_force/home"
 
   get "task_force/activities"
@@ -14,6 +16,7 @@ TaskForce::Application.routes.draw do
   match '/activities',   :to => 'task_force#activities'
   match '/membership', :to => 'task_force#membership'
   match '/links', :to => 'task_force#links'
+  match '/call', :to => 'acecube#call'
   
   # Keep in mind you can assign values other than :controller and :action
 
